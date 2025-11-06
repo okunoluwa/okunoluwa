@@ -1,3 +1,4 @@
+#demo for displaying text on the screen 
 #print('Hickory Dickory Dock! The mouse ran up the clock')
 print('The capybara is the worlds largest rodent')
 print('The capybara likes to live in group')
@@ -24,3 +25,8 @@ print("can i print a \ on the scree")
 
 #i am inserting a \\ so the \ appears correctly in the string 
 print("But what if I want \\news ")
+
+#challenge 
+print("There once was a movies star icon \nwho preffered to sleep with the light on.")
+print("""They learned how to code
+a device that sure glowed \nand lit up the night using python!""")
