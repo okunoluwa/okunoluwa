@@ -29,3 +29,11 @@ paycheckAmount = float(salary) + float(bonus)
 
 print(paycheckAmount)
 
+##Demo for calculating the monthly payment of a loan 
+monthlyPayment = 0
+loanAmount = float(input("Please enter the loan amount: "))
+numberofPayment = float(input("Please enter the number of payment: "))
+interestRate = int(input("Please enter the interest rate: "))
+
+#Calculating the monthly payment 
+monthlyPayment = loanAmount*(interestRate*(1 + interestRate)* numberofPayment)
